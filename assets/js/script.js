@@ -23,6 +23,7 @@ function generatePassword() {
     alert("Enter a number!");
   } else if (characterCount < 8 || characterCount > 128) {
     characterCount = alert("Pick a number between 8 and 128.");
+    return;
   } else {
     confirmNumber = confirm("Do you want to use numbers?");
     confirmSpecial = confirm("Do you want to use special characters?");
