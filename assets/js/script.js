@@ -19,7 +19,7 @@ function generatePassword() {
   var characterCount = prompt("How many characters in the password?");
   if (!characterCount) {
     return;
-  } if (typeof parseInt(characterCount) != 'number') {
+  } if (Number.isInteger(characterCount) == false) {
     alert("Enter a number!");
   } else if (characterCount < 8 || characterCount > 128) {
     characterCount = alert("Pick a number between 8 and 128.");
