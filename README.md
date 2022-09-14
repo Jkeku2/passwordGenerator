@@ -5,3 +5,4 @@ This program generates a password based on the user's criteria. Press the genera
 test out the program here.
 https://jkeku2.github.io/passwordGenerator
 
+![Password generator Demo gif](/assets/images/passGenDemo.gif)
